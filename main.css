@@ -184,25 +184,34 @@ a:visited {
     flex-direction: column;
     width: 100%;
     height: 170px;
+    padding-top: 110px;
   }
 
   .name-and-pic {
     display: flex;
-    width: 100%;
-    flex-basis: 0;
-    flex-grow: 3;
+  }
+
+  .about {
+    border-bottom: 1px #ccc solid;
+    padding: 0em 2em;
   }
 
   .picture {
-    border: 1px #ccc solid;
     width: 100%;
     order: 2;
+    text-align: center;
+  }
+
+  .picture img {
+    width: 220px;
+    height: 330px;
+    margin-top: -150px;
   }
 
   .name {
-    border: 1px #ccc solid;
     width: 100%;
     order: 1;
+    padding-top: 26px;
   }
 
   .Linsy {
@@ -225,13 +234,12 @@ a:visited {
   }
 
   .contact-mobile {
-    border-left: 1px #ccc solid;
-    border-bottom: 1px #ccc solid;
     width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    padding: 20px 0px;
   }
 
   .icons {
@@ -264,35 +272,35 @@ a:visited {
     flex-direction: column;
   }
 
-  .nav {
-    border: 1px #ccc solid;
+  /*.nav {
+    border-bottom: 1px #ccc solid;
+  }*/
+
+  .nav-item-web {
+    display: flex;
   }
 
-  .nav a {
+  .nav-item-web a {
     text-decoration: none;
     margin-left: 36px;
-    color: #737373;
+    color: #47a53d;
     font-size: 1em;
     font-weight: normal;
     font-style: italic;
   }
 
   a:visited {
-    color: #737373;
-  }
-
-  .about {
-    border: 1px #ccc solid;
-    padding: 1em 2em;
+    color: #47a53d;
   }
 
   .skills {
-    border: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
     text-align: center;
+    padding: 20px 0px;
   }
 
   .projects {
-    border: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
   }
 
 }
