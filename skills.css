@@ -1,0 +1,193 @@
+@media screen and (min-width: 80em) {
+
+.skills-container {
+  margin: 80px 0px 0px 110px;
+}
+
+.box-one {
+  margin-left: 50px;
+}
+
+.box-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-five {
+  display: flex;
+  flex-direction: row;
+}
+
+.html {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.75em;
+}
+
+.css {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.javascript {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+  color: #47a53d;
+}
+
+.react {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+  color: #47a53d;
+}
+
+.github {
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+.jquery {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.command-line {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.75em;
+  margin-left: -20px;
+}
+
+.responsive-design {
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 1.75em;
+}
+
+.apis {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.firebase {
+  font-size: 2.5em;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+/*.skills-title {
+  z-index: -1;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.75em;
+  opacity: 0%;
+}*/
+
+}
+
+@media screen and (min-width: 80em) and (max-width: 1600px) {
+
+  .skills-container {
+    margin: 80px 0px 0px 70px;
+  }
+
+}
+
+@media screen and (max-width: 80em) {
+
+  .skills-container {
+
+  }
+
+  .box-one {
+    margin-left: 50px;
+  }
+
+  .box-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .box-three {
+    margin-left: -20px;
+  }
+
+  .box-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .html {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.75em;
+  }
+
+  .css {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .javascript {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+    color: #47a53d;
+  }
+
+  .react {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+    color: #47a53d;
+  }
+
+  .github {
+    font-size: 2.5em;
+    line-height: 1;
+  }
+
+  .jquery {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .command-line {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.75em;
+    margin-left: -20px;
+  }
+
+  .responsive-design {
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 1.75em;
+  }
+
+  .apis {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .firebase {
+    font-size: 2.5em;
+    margin-left: 20px;
+    line-height: 1;
+  }
+
+}

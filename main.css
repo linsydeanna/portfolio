@@ -1,0 +1,298 @@
+body {
+  background: #f8f8f8;
+  font-family: 'Playfair Display', serif;
+  color: #737373;
+}
+
+@media screen and (min-width: 80em) {
+
+.top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 310px;
+  margin-left: 1px;
+}
+
+.name-and-pic {
+  display: flex;
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+
+.picture {
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  border-bottom: 1px #ccc solid;
+  text-align: center;
+}
+
+.picture img {
+  width: 220px;
+  height: 330px;
+  margin-top: -21px;
+}
+
+.name {
+  border-left: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.Linsy {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.75em;
+  margin: 30px 0px 0px 30px;
+}
+
+.Joyner {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0px 0px 0px 30px;
+}
+
+.contact {
+  border-left: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+.icons {
+  width: 80%;
+  align-self: center;
+}
+
+.icon-box-one {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.icon-box-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1600px) {
+
+  .icon-box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
+
+.icon-box-two span {
+  margin-left: 5px;
+}
+
+.phone-number {
+  font-size: 1em;
+}
+
+.middle {
+  display: flex;
+}
+
+.nav {
+  border-bottom: 1px #ccc solid;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+}
+
+a:visited {
+  color: #737373;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.about {
+  border-left: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 1em 2em;
+  box-sizing: border-box;
+}
+
+.about p {
+  font-size: 0.95em;
+  line-height: 1.75;
+  box-sizing: border-box;
+}
+
+.skills {
+  border-left: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  flex-basis: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.projects {
+  height: 900px;
+}
+
+.nav-item-web {
+  width: 35%;
+  display: flex;
+  margin: 50% auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-web p {
+  color: #47a53d;
+}
+
+}
+
+@media screen and (max-width: 80em) {
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 170px;
+  }
+
+  .name-and-pic {
+    display: flex;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 3;
+  }
+
+  .picture {
+    border: 1px #ccc solid;
+    width: 100%;
+    order: 2;
+  }
+
+  .name {
+    border: 1px #ccc solid;
+    width: 100%;
+    order: 1;
+  }
+
+  .Linsy {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.75em;
+    margin: 60px 0px 0px 36px;
+  }
+
+  .Joyner {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0px 0px 0px 36px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .contact-mobile {
+    border-left: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons {
+    width: 50%;
+    align-self: center;
+  }
+
+  .icon-box-one {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .icon-box-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .email {
+    margin-bottom: 5px;
+  }
+
+  /*MIDDLE*/
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav {
+    border: 1px #ccc solid;
+  }
+
+  .nav a {
+    text-decoration: none;
+    margin-left: 36px;
+    color: #737373;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  a:visited {
+    color: #737373;
+  }
+
+  .about {
+    border: 1px #ccc solid;
+    padding: 1em 2em;
+  }
+
+  .skills {
+    border: 1px #ccc solid;
+    text-align: center;
+  }
+
+  .projects {
+    border: 1px #ccc solid;
+  }
+
+}
