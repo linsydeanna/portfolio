@@ -1,7 +1,15 @@
-@media screen and (min-width: 80em) {
+.skills-container {
+  max-width: 50%;
+  margin: 40px auto 0px;
+}
+
+@media screen and (max-width: 1110px) {
 
 .skills-container {
-  margin: 80px 0px 0px 110px;
+    max-width: 70%;
+    margin: 40px auto 0px;
+}
+
 }
 
 .box-one {
@@ -48,6 +56,7 @@
 .github {
   font-size: 2.5em;
   line-height: 1;
+  margin-left: 50px;
 }
 
 .jquery {
@@ -60,7 +69,7 @@
   font-style: italic;
   font-weight: 400;
   font-size: 1.75em;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .responsive-design {
@@ -90,20 +99,19 @@
   opacity: 0%;
 }*/
 
-}
-
-@media screen and (min-width: 80em) and (max-width: 1600px) {
+/*@media screen and (max-width: 1600px) {
 
   .skills-container {
     margin: 80px 0px 0px 70px;
   }
 
-}
+}*/
 
-@media screen and (max-width: 80em) {
+@media screen and (max-width: 901px) {
 
   .skills-container {
-
+    max-width: 65%;
+    margin: 40px auto 0px;
   }
 
   .box-one {
