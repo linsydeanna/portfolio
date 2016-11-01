@@ -173,7 +173,6 @@ body {
 }
 
 .name {
-  border-left: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
   width: 100%;
   flex-basis: 0;
@@ -202,7 +201,6 @@ body {
 }
 
 .contact {
-  border-left: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
   width: 100%;
   flex-basis: 0;
@@ -297,21 +295,22 @@ a:visited {
 
 .about {
   border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
-  flex-basis: 0;
-  flex-grow: 1;
+  width: 34%;
   padding: 1em 2em;
   box-sizing: border-box;
+  margin-top: -310px;
 }
 
 .about p {
   font-size: 0.95em;
   line-height: 1.75;
   box-sizing: border-box;
+  padding-top: 315px;
 }
 
 .skills {
-  border-left: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
   flex-basis: 0;
   flex-grow: 1;
