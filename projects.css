@@ -54,12 +54,21 @@
   .project-links a {
     color: #737373;
     margin: 0px 50px 16px;
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 20px;
     text-decoration: none;
   }
 
-}
+  .project-links a:hover {
+    color: #47a53d;
+  }
+
+  .project-links a {
+    text-align: center;
+  }
+
+  .fa-laptop {
+    margin-top: 1px;
+  }
 
 @media screen and (max-width: 950px) {
 
