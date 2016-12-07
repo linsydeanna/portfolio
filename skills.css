@@ -17,11 +17,17 @@
 }
 
 .box-two {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   flex-direction: row;
 }
 
 .box-five {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   flex-direction: row;
 }
@@ -103,6 +109,9 @@
   }
 
   .box-two {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -113,6 +122,9 @@
   }
 
   .box-five {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: row;
     justify-content: center;

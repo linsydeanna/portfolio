@@ -7,6 +7,9 @@ body {
 @media screen and (max-width: 950px) {
 
   .top {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -15,6 +18,9 @@ body {
   }
 
   .name-and-pic {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
   }
 
@@ -25,6 +31,10 @@ body {
 
   .picture {
     width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
     order: 2;
     text-align: center;
   }
@@ -37,6 +47,10 @@ body {
 
   .name {
     width: 100%;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
     order: 1;
     padding-top: 26px;
   }
@@ -69,6 +83,9 @@ body {
     width: 100%;
     flex-basis: 0;
     flex-grow: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     justify-content: center;
     padding: 40px 0px;
@@ -80,6 +97,9 @@ body {
   }
 
   .icon-box-one {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     width: 70%;
     margin: 0 auto;
@@ -92,6 +112,9 @@ body {
   }
 
   .icon-box-two {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -104,6 +127,9 @@ body {
   /*MIDDLE*/
 
   .middle {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
   }
@@ -113,6 +139,9 @@ body {
   }*/
 
   .nav-item-web {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
   }
 
@@ -144,6 +173,9 @@ body {
 @media screen and (min-width: 950px) {
 
 .top {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -152,6 +184,9 @@ body {
 }
 
 .name-and-pic {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   width: 100%;
   flex-basis: 0;
@@ -203,6 +238,9 @@ body {
   width: 100%;
   flex-basis: 0;
   flex-grow: 1;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   justify-content: center;
 }
@@ -217,6 +255,9 @@ body {
 }
 
 .icon-box-one {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   width: 70%;
   margin: 0 auto;
@@ -233,6 +274,9 @@ body {
 }
 
 .icon-box-two {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -241,6 +285,9 @@ body {
 @media screen and (max-width: 1600px) {
 
   .icon-box-two {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -267,6 +314,9 @@ body {
 }
 
 .middle {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
 }
 
@@ -312,6 +362,9 @@ a:visited {
   border-bottom: 1px #ccc solid;
   flex-basis: 0;
   flex-grow: 1;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -323,6 +376,9 @@ a:visited {
 
 .nav-item-web {
   width: 40%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   display: flex;
   margin-left: 15%;
   justify-content: space-between;

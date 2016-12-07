@@ -10,6 +10,9 @@
 
   .portfolio-project {
     width: 50%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -32,6 +35,9 @@
   }
 
   .tech-stack {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     justify-content: flex-start;
     margin: 0px auto 20px;
@@ -45,6 +51,9 @@
   }
 
   .project-links {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -84,6 +93,9 @@
 
   .portfolio-project {
     width: 90%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -106,6 +118,9 @@
   }
 
   .tech-stack {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     justify-content: flex-start;
     margin: 0px auto 20px;
@@ -119,6 +134,9 @@
   }
 
   .project-links {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
     margin: 0 auto;
     justify-content: center;
