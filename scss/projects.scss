@@ -23,7 +23,7 @@
     line-height: 1;
     font-size: 40px;
     color: #737373;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .project-screenshot {
@@ -97,7 +97,7 @@
     line-height: 1;
     font-size: 26px;
     color: #737373;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .project-screenshot {
@@ -106,9 +106,6 @@
   }
 
   .tech-stack {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
     display: flex;
     justify-content: flex-start;
     margin: 0px auto 20px;
