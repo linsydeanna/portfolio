@@ -101,6 +101,10 @@ body {
     margin-bottom: 5px;
   }
 
+  .phone {
+    margin-top: 10px;
+  }
+
   /*MIDDLE*/
 
   .middle {
@@ -257,6 +261,10 @@ body {
   font-size: 1em;
 }
 
+.phone {
+  margin-top: 10px;
+}
+
 .email a {
   text-decoration: none;
   color: #737373;
@@ -322,9 +330,9 @@ a:visited {
 }
 
 .nav-item-web {
-  width: 40%;
+  width: 35%;
   display: flex;
-  margin-left: 15%;
+  margin-left: 20%;
   justify-content: space-between;
   align-items: center;
 }
