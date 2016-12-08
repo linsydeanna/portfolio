@@ -90,7 +90,7 @@
   .tech-stack {
     display: flex;
     justify-content: flex-start;
-    margin: 0px auto 20px; }
+    margin: 0px auto; }
 
   .tech-stack p {
     color: #47a53d;
