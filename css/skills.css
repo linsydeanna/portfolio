@@ -1,186 +1,151 @@
 .skills-container {
   max-width: 50%;
-  margin: 40px auto 40px;
-}
+  margin: 40px auto 40px; }
 
 @media screen and (max-width: 1110px) {
-
-.skills-container {
+  .skills-container {
     max-width: 70%;
-    margin: 40px auto 0px;
-}
-
-}
-
+    margin: 40px auto 0px; } }
 .box-one {
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 .box-two {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 .box-five {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 .html {
   font-style: italic;
   font-weight: 400;
-  font-size: 2.75em;
-}
+  font-size: 2.75em; }
 
 .css {
   text-transform: uppercase;
   font-size: 2.5em;
   font-weight: bold;
-  line-height: 1;
-}
+  line-height: 1; }
 
 .javascript {
   font-size: 2.5em;
   font-weight: bold;
   line-height: 1;
-  color: #47a53d;
-}
+  color: #47a53d; }
 
 .react {
   font-size: 2.5em;
   font-weight: bold;
   line-height: 1;
-  color: #47a53d;
-}
+  color: #47a53d; }
 
 .github {
   font-size: 2.5em;
   line-height: 1;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 .jquery {
   font-size: 2.5em;
   font-weight: bold;
-  line-height: 1;
-}
+  line-height: 1; }
 
 .command-line {
   font-style: italic;
   font-weight: 400;
   font-size: 1.75em;
-  margin-left: -10px;
-}
+  margin-left: -10px; }
 
 .responsive-design {
   font-style: italic;
   font-weight: 400;
   margin-left: 10px;
-  font-size: 1.75em;
-}
+  font-size: 1.75em; }
 
 .apis {
   font-size: 2.5em;
   font-weight: bold;
-  line-height: 1;
-}
+  line-height: 1; }
 
 .firebase {
   font-size: 2.5em;
   margin-left: 20px;
-  line-height: 1;
-}
+  line-height: 1; }
 
 @media screen and (max-width: 950px) {
-
   .skills-container {
     max-width: 65%;
-    margin: 40px auto 40px;
-  }
+    margin: 40px auto 40px; }
 
   .box-one {
-    margin-left: 50px;
-  }
+    margin-left: 50px; }
 
   .box-two {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-  }
+    justify-content: center; }
 
   .box-three {
-    margin-left: -20px;
-  }
+    margin-left: -20px; }
 
   .box-five {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-  }
+    justify-content: center; }
 
   .html {
     font-style: italic;
     font-weight: 400;
-    font-size: 2.75em;
-  }
+    font-size: 2.75em; }
 
   .css {
     text-transform: uppercase;
     font-size: 2.5em;
     font-weight: bold;
     line-height: 1;
-    margin-right: 50px;
-  }
+    margin-right: 50px; }
 
   .javascript {
     font-size: 2.5em;
     font-weight: bold;
     line-height: 1;
-    color: #47a53d;
-  }
+    color: #47a53d; }
 
   .react {
     font-size: 2.5em;
     font-weight: bold;
     line-height: 1;
-    color: #47a53d;
-  }
+    color: #47a53d; }
 
   .github {
     font-size: 2.5em;
-    line-height: 1;
-  }
+    line-height: 1; }
 
   .jquery {
     font-size: 2.5em;
     font-weight: bold;
-    line-height: 1;
-  }
+    line-height: 1; }
 
   .command-line {
     font-style: italic;
     font-weight: 400;
     font-size: 1.75em;
-    margin-left: -20px;
-  }
+    margin-left: -20px; }
 
   .responsive-design {
     font-style: italic;
     font-weight: 400;
     margin-left: 10px;
-    font-size: 1.75em;
-  }
+    font-size: 1.75em; }
 
   .apis {
     font-size: 2.5em;
     font-weight: bold;
-    line-height: 1;
-  }
+    line-height: 1; }
 
   .firebase {
     font-size: 2.5em;
     margin-left: 20px;
-    line-height: 1;
-  }
+    line-height: 1; } }
 
-}
+/*# sourceMappingURL=skills.css.map */
